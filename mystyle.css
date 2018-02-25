@@ -7,9 +7,13 @@ body{
     background-color: lightblue;
     font-family: Helvetica, Arial, sans-serif;
 }
-.header{
+header{
     padding: 10px 10px 10px 10px;
-    background-color: #b56663
+    background-color: #b56663;
+}
+header li:hover {
+    text-decoration: underline;
+    color: darkred;
 }
 h1 {
     margin: 10px 0 15px 0;
@@ -34,8 +38,4 @@ ul {
 }
 .nav li {
     display: inline;
-}
-li:hover{
-   text-decoration: underline;
-   color: darkred;
 }
